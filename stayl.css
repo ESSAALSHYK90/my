@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+body{
+  background-attachment: fixed;
+  background-image: url("midua/lofe.png");
+  background-color: #eefff4;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.imags{
+  width: 70%;
+  margin: 67px;
+  margin-bottom: 100px;
+  background-image: url("midua/kalvee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+
+
+}
+.imags1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px 40px 20px 20px;
+    padding: 10px;
+    margin: 100px 30px 50px 100px;
+}
+
+
+
+.parg{
+    padding: 70px 50px 60px 10px;
+    font-family: 'Protest Revolution', sans-serif;
+    margin: 150px 10px 30px;
+    
+
+
+}
+.parg h1{
+    font-size: 50px;
+
+}
+.parg p {
+    font-size: 22px;
+
+}
+.fill {
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    width: fit-content;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #333;
+    position: relative;
+  }
+  
+.fill:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-text-fill-color: #2dca18;
+    transition: 2s;
+    width: 0;
+    overflow: hidden;
+  }
+  
+.fill:hover:before {
+    width: 100%;
+}
+
+
+
+
+.section1{
+  margin: 50px auto 50px 20px ;
+  color: #eefff4;
+}
+.about{
+  margin: 50px;
+  margin-bottom: 100px;
+  background-color: #eefff4;
+  color: #000;
+}
+.about > h5{
+  text-align: center;
+  padding-top: 10px;
+
+}
+.about > p {
+  padding: 0 0 0 15px ;
+}
+.about:hover{
+  background-color: #c5f4f9;
+  font-family: 'Indie Flower', cursive;
+}
+
+.attain{
+  margin: 50px;
+  margin-bottom: 100px;
+}
+.attain > h6{
+  text-align: center; 
+}
+.attain:hover{
+  background-color: #eefff4;
+  color: black;
+  font-family: 'Indie Flower', cursive ;
+}
+
+.proj{
+  margin: 50px;
+  margin-bottom: 100px;
+
+}
+.proj > p {
+  padding: 0 0 0 15px;
+}
+.proj > h6{
+  text-align: center;
+  padding-top: 10px;
+}
+.proj:hover{
+  background-color: #eefff4;
+  color: black;
+  font-family: 'Indie Flower', cursive ;
+}
+
+.icons1{
+    padding:7px;
+}
+
+footer{
+  background-color: #c5f4f9;
+}
+footer  div {
+  padding: 10px ;
+}
+footer p{
+  padding: 10px;
+}
+.text{
+  width: 50px ;
+  height: 50px;
+
+}
+.text a{
+  border-radius: 50px;  
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+  color: #000;
+}
+.icons1{
+  border: black solid 2px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.icons1:hover{
+  color: #fff;
+  font-size: 25px;
+}
+.icon1:hover{
+  background-color: #63b5f4;
+}
+.icon2:hover{
+  background-color: #66ec6a;
+}
+.icon3:hover{
+  background-color: #ec41ab;
+}
+.icon4:hover{
+  background-color: #000000;
+}
+
+
+
+
+.button a {
+  display: inline-block;
+  background-color: #4aa44a;
+  padding: 5px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+.button a:hover{
+    background-color: #fff;
+  }
+.navbar a:hover {
+  background-color: #9bf38f;
+  border-radius: 10px;
+  transition: 0.5s;
+
+}
+@media screen and (min-width: 60px) and (max-width: 500px) {
+  *{
+    margin: 0;
+    padding: 0;
+    font-size: 65px;
+   
+  }
+  body{
+    background-attachment: fixed;
+    background-image: url("midua/kalvee1.jpg");
+  }
+  .header{
+    width: 130vh;
+  }
+  .mer{
+    width: 130vb;
+
+  }
+  .imags{
+     width:  118vh;
+  }
+  .imags1{
+    width: 50vh;
+    height: 50vh;
+  }
+  .parg p{
+    font-size: 6vh;
+
+  }
+  .parg h1{
+    font-size: 7vh;
+  }
+  .card1{
+    margin: 30px;
+    width: 120vh;
+  }
+  .about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .proj{
+    margin-top: 50px;
+  }
+  .attain:hover{
+    background-color: #f3f7f5;
+  }
+  .button a{
+    background-color: #5beb8d;
+    width: 80px;
+  }
+
+  .card1:hover{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  footer{
+    margin-top: 30px; ;
+    width: 130vh;
+  }
+
+  .text{
+    margin: 10px;
+
+  }
+  .text a{
+    font-size: 50px;
+  }
+ 
+}
+@media screen and (min-width: 501px) and (max-width:900px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
